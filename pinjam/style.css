@@ -1,0 +1,160 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+.container {
+    display: flex;
+    height: 831px;
+  }
+.sidebar {
+    width: 216px; 
+    background-color: #ffffff;
+    padding: 20px;
+  }
+.sidebar ul {
+    padding: 0;
+}
+.sidebar img {
+    width: 110px;
+    margin: 50px;
+}
+.sidebar ul li {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin: 25px 50px;
+} 
+.sidebar ul a {
+    color: #7394C6;
+    transition: 0.4s;
+}
+.sidebar ul i {
+    margin-right: 15px;
+}
+.sidebar ul li:hover a {
+    padding-left: 10px;
+    color: #AAB4B6;
+}
+.main-content {
+    flex-grow: 1;
+    box-shadow: 4px 0px 20px lightblue inset
+  }
+.header {
+    background-color: #0079FF ;
+}
+.header-background {
+    background-image: url(../assets/MapIndo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.header-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 63px 0 0 0;
+}
+.header-text h1 {
+    font-size: 80px;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 60px;
+    letter-spacing: 5px;
+}
+.card-container {
+    position: absolute;
+    display: flex;
+    left: 780px;
+    top: 115px;
+}
+.card { 
+    width: 120px;
+    margin: 0px 11px 0px 20px;
+    height: 107px;
+    border-radius: 5px;
+    text-align: center;
+}
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card-content {
+    padding: 0 0 0 18px;
+    text-align: center;
+    position: absolute;
+    bottom: 30;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #446167;
+}
+.card-content h2 {
+    margin: 0;
+}
+.card-content p {
+    margin: 0;
+    margin-top: 5px;
+}
+.body-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 0 50px;
+}
+.body-card-digunakan {
+    background-color: #EA7A7A;
+    width: 199px;
+    margin: 20px;
+    height: 171px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.body-card-tersedia { 
+    background-color: #7FE9D6;
+    width: 199px;
+    margin: 20px;
+    height: 171px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.body-card-tidaktersedia { 
+    width: 199px;
+    margin: 20px;
+    height: 171px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.body-card-tersedia img {
+    margin: 30px 0 20px 60px;
+}
+.body-card-digunakan img {
+    margin: 30px 0 20px 60px;
+}
+.body-card-tidaktersedia img {
+    margin: 30px 0 20px 60px;
+}
+.body-card-content {
+    position: absolute;
+    padding: 10px;
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.body-card-text {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.body-card-text-2 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0;
+    word-spacing: 65px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');

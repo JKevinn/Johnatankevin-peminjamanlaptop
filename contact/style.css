@@ -1,0 +1,161 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: #0079FF;
+}
+.container {
+    display: flex;
+    height: 831px;
+    background-image: url(../assets/MapIndo.png);
+    background-size: cover;
+  }
+.sidebar {
+    width: 216px; 
+    background-color: #ffffff;
+    padding: 20px;
+  }
+.sidebar ul {
+    padding: 0;
+}
+.sidebar img {
+    width: 110px;
+    margin: 50px 0px 50px 50px;
+}
+.sidebar ul li {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin: 25px 50px;
+} 
+.sidebar ul a {
+    color: #7394C6;
+    transition: 0.4s;
+}
+.sidebar ul i {
+    margin-right: 15px;
+}
+.sidebar ul li:hover a {
+    padding-left: 10px;
+    color: #AAB4B6;
+}
+.main-content {
+    flex-grow: 1;
+    box-shadow: 4px 0px 20px lightblue inset
+  }
+.container-card {
+    position: absolute;
+    width: 953px;
+    height: 490px;
+    background: linear-gradient(101.88deg, rgba(255, 255, 255, 0.56) 4.05%, rgba(255, 255, 255, 0.56) 48.89%, rgba(255, 255, 255, 0.56) 98.35%);
+    box-shadow: 0px 4px 30px rgba(23, 41, 53, 0.25);
+    border-radius: 9px;
+    left: 282px;
+    top: 171px;
+}
+.container-card h2 {
+    position: absolute;
+    width: 520px;
+    height: 47px;
+    left: 59px;
+    top: 20.3px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #585E97;
+}
+.container-card-p {
+    position: absolute;
+    width: 340px;
+    height: 53px;
+    left: 59px;
+    top: 160px;
+
+    font-family: 'Pangram';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+
+color: #4D6D8A;
+}
+.card-contact {
+    position: absolute;
+    width: 550.83px;
+    height: 138.8px;
+    left: 59px;
+    top: 280px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 27px rgba(42, 60, 72, 0.13);
+    border-radius: 4px;
+}
+.card-contact-p {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.08em;    
+}
+.container-card img {
+    position: absolute;
+    width: 276.37px;
+    height: 431.12px;
+    left: 649px;
+    top: 19px;
+}
+.card-content-number {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    width: 451.72px;
+    height: 42.06px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+.card-content-number p {
+    position: absolute;
+    width: 376px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    color: #787878;
+}
+.card-content-hubungi {
+    position: absolute;
+    width: 177.26px;
+    height: 42.06px;
+    background: #373B61;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right: 0;
+}
+.card-content-hubungi h3 {
+    margin: 10px 0;
+    position: absolute;
+    text-align: center;
+    width: 177.5px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
